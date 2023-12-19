@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh; /* Ensures full viewport height */
+}
+
+.white-box {
+    width: 748px;
+    height: 646px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.bundle-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin-top: 70px;
+  background: white;
+  color: #007f61;
+  font-family: Metropolis;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.line {
+  width: 14%;
+  margin-top: 15px;
+  color: #c8c8c8;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.additional-box {
+    height: 10%;
+    border-radius: 4px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid grey;
+    margin-top: 20px;
+}
+
+.strike{
+    color: black;
+    text-decoration: line-through;
+    opacity: 0.8;
+    margin-top: -18px;
+    margin-left: 190px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.dropdown{
+    border-color: black;
+    display: none;
+}
+.dopdownheading{
+    padding: 7px;
+    color: black;
+    position: fixed;
+    margin-left: 72px;
+    margin-top: -21px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.dopdownheading1{
+    padding: 20px;
+    position: fixed;
+    color: black;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 123px;
+    margin-top: -37px;
+}
+.additional-box input[type="radio"] {
+  margin: 25px;
+}
+
+.label {
+    margin-left: 67px;
+    margin-right: 50px;
+    margin-top: -50px;
+    font-family: Metropolis;
+    font-size: 14px;
+}
+
+.discount {
+    position: fixed;
+  margin-left: 272px;
+  margin-top:  -33px;;
+}
+
+.heading{
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: -34px;
+    margin-left: 252px;
+    color: #007f61;
+    position: fixed;
+    
+}
+
+.h3{
+    color: #007f61;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 200px
+    
+}
+
+.h2{
+    margin-top: -14px;
+    margin-left: 420px;
+    color: black;
+}
+
+.additional-box1{
+    background-color: #007f61;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 25px;
+    margin-left: 199px;
+    margin-right: 200px;
+}
+
+.div{
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    color: black;
+    position: fixed;
+    margin-top: 7px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 450px;
+}
+
+img {
+    color: black;
+    width: 11px;
+    height: 11px;
+    margin-left: 437px;
+    margin-top: 9px;
+    position: fixed;
+}
+
+.imagetext{
+    margin-left: 438px;
+    color: black;
+    margin-top: 4px;
+    position: absolute;
+}
+.option{
+    margin: 3px;
+}
+.additional-box3{
+    /* height: 132px; */
+    border-radius: 4px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid grey;
+    margin-top: 20px;
+}
+
+.dropdown1{
+    position: fixed;
+    margin-left: 75px;
+    margin-top: 0px;
+}
+
+.dropdown2{
+    margin-left: 138px;
+    margin-top: 23px;
+}
+.dropdown3{
+    margin-left: 74px;
+    margin-top: 8px;
+
+}
+.dropdown4{
+    margin-left: 138px;
+    margin-top: -20px;
+}
+
+#divShow {
+    display: none;
+}
+
+.one{
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    position: fixed;
+}
+
+.two {
+    position: fixed;
+    margin-left: 50px;
+    margin-top: 28px;
+}
